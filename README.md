@@ -1,5 +1,4 @@
-# Quick Start
-# --------------------------------------
+# Quick Start Guide
 
 This is the Webpack boilerplate that I use in my projects. 
 

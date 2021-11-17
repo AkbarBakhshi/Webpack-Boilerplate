@@ -2,8 +2,7 @@ require('dotenv').config()
 
 const logger = require('morgan')
 const express = require('express')
-// const errorHandler = require('errorhandler')
-// const methodOverride = require('method-override')
+const errorHandler = require('errorhandler')
 
 const port = 3000
 const app = express()
@@ -12,8 +11,8 @@ const path = require('path')
 app.use(logger('dev'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
-// app.use(methodOverride())
-// app.use(errorHandler())
+
+app.use(errorHandler())
 app.use(express.static(path.join(__dirname, 'public')))
 
 

@@ -10,4 +10,4 @@ For **Production**, make sure to run ``` npm frontendProd``` command inside the 
 
 
 ---------------------------------------
-*credits*: Luis Henrique Bizarro
+*Credits*: Luis Henrique Bizarro

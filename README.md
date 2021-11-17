@@ -1,4 +1,4 @@
-This is the Webpack boilerplate that we will be using for the Late Night Coders channel. 
+This is the Webpack boilerplate that I use for my projects. 
 
 Download or clone the project on your local drive. Open Terminal (Command prompt) and navigate to the project folder. Then run ```npm install```. You should see a new folder called **node_modules** in the project folder.
 

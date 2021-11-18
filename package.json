@@ -4,11 +4,11 @@
   "description": "Wbpack boilderplate to be used for this channel",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently --kill-others \"npm run backendDev\" \"npm run frontendDev\"",
-    "backendDev": "nodemon app.js",
-    "frontendDev": "cross-env NODE_ENV=dev webpack serve --progress --config webpack.config.dev.js",
-    "backendProd": "node app.js",
-    "frontendProd": "webpack --progress --config webpack.config.prod.js"
+    "start": "concurrently --kill-others \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "backend:dev": "nodemon app.js",
+    "frontend:dev": "cross-env NODE_ENV=dev webpack serve --progress --config webpack.config.dev.js",
+    "backend:prod": "node app.js",
+    "frontend:prod": "webpack --progress --config webpack.config.prod.js"
   },
   "author": "Akbar Bakhshi",
   "license": "ISC",

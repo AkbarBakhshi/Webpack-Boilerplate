@@ -24,7 +24,7 @@ app.use((req, res, next) => {
   next()
 })
 
-
+//=======================All the routes - these can have their own file/folder========================
 app.get('/', (req, res) => {
   res.render('pages/home')
 })

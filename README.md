@@ -1,6 +1,8 @@
 # Quick Start Guide
 
-This is the Webpack boilerplate that I use in my projects. 
+This is the Webpack boilerplate that I use in my projects. Check out this youtube video for details:
+
+https://youtu.be/nLdqnGdSthM
 
 Download or clone the project on your local drive. Open Terminal (Command prompt) and navigate to the project folder. Then run ```npm install```. You should see a new folder called **node_modules** in the project folder.
 
